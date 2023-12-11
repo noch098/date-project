@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+u1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div a{
+    font-size: 3rm;
+    font-weight: bold;
+}
+
+div button{
+    font-size: 2rem;
+    border: 0;
+    display: none;
+}
+
+test{
+    display: flex;
+}
+
+@media (max-width:576px) {
+    div button{
+        display: block;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: flex-end;
+        display: none;
+    }
+
+    ul a{
+        margin: 1rem 0;
+    }
+    
+}
